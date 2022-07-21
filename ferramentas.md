@@ -39,6 +39,11 @@ ___
 
 # Cucumber
 
+## Resumo
+ O Cucumber é uma ferramenta que pode ser utilizada para a criação de testes, utilizando a sintaxe Gherkin, a nivel de negócio, e que podem ser convertidos em testes automatizados. A ferramenta é bastante utilizada com auxilio do Selenium.
+
+ O entendimento de seu código acaba sendo mais fácil por se tratar de uam visão de negócio, e por utilizar a sintaxe de Gherkin (Dado, Quando e Então)
+
 <br>
 
 # Robot
