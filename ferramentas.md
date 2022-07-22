@@ -1,8 +1,4 @@
 
-    <!-- 
-    OBS: utilize 'Ctrl + Shift + V' para abrir o exemplo
-    -->
-
 ___
  >  Resumo sobre ferramentas para a a utilização em testes.
     <br><br>
