@@ -1,6 +1,7 @@
----
+
+    <!-- 
     OBS: utilize 'Ctrl + Shift + V' para abrir o exemplo
----
+    -->
 
 ___
  >  Resumo sobre ferramentas para a a utilização em testes.
@@ -46,5 +47,9 @@ ___
 
 <br>
 
-# Robot
+# TestComplete
 
+## Resumo
+ Uma feramenta que suporta várias linguágens, como Basic, Java, .NET, dentre outras, além de realizar os testes e verifica a lógica do negócio, o desempenho, a funcionalidade, a interface, a persistência dos dados, o desempenho do servidor, etc, conforme programado pelo tester, gerando os devidos relatórios.
+
+ O testComplete é uma ferramenta completa que pode realizar diversos tipos de testes em diversas ferramentas e plataformas, como testes de caixa preta, branca, funcionais, não funcionáis, de massa de dados, e até mesmo se expandindo para o mobile. O grande problema dessa ferramenta é ser uma ferramenta paga, onde sua licença gira em torno de US$3000.
