@@ -1,0 +1,106 @@
+
+
+
+{-----------------------------------------FUNCIONAL---------------------------------------}
+(https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los)
+
+
+TESTE DE UNIDADE:
+
+	Testes em um nivel muito baixo, feitos geralment em cima de cada função do sistema,
+onde os testes são feitos na menor unidade do sistema. Geralmente implementatos pelos
+desenvolvedores.
+
+TESTE DE INTEGRAÇÃO:
+
+	São testes em cima da interação entre as "unidades" testadas, testando a interação
+entre as partes. Geralmente são mais lentos de desenvolver e executar, pois tratam de
+testar a lógica do projeto.
+
+TESTE PONTA A PONTA (E2E):
+
+	Geralmente o ultimo teste a ser feito, o teste de ponta a ponta tem o objetivo de
+simular a interação do usuário final no sistema, os famosos "Testes Automatizados".
+
+RESUMO DE FERRAMENTAS:
+
+	| Cypress 	       | E2E e automação      |
+	| Ambiente Selenium    | E2E e automação      |
+	| Cucumber  	       | Automação e BDD      |
+	| Framework de teste   | Unidade e Integração |
+
+
+
+{---------------------------------------NÃO-FUNCIONAL-------------------------------------}
+
+
+TESTE DE DESEMPENHO:
+
+	O teste de desempenho visa determinar a eficiencia do sistema com uma determinada
+quantidade de usuários ou carga. Essa carga é estipulada com base em quantos usuários se
+espera ter no sistema. Por exemplo, podemos verificar se o sistema funciona e suporta a 
+quantidade de 1000 usuário e 1000 transações simultãneas.
+
+
+TESTE DE CARGA:
+
+	O teste de carga visa medir quanto o sistema suporta com um numero de usuários 
+maior que o determinado no teste de desempenho. Podemos, por exemplo, testar o sistema com
+2000, 3000, ou 4000 usuários.
+
+
+TESTE DE TEMPO DE RESPOSTA:
+
+	O teste de tempo de resposta, basicamente, visa medir o quão rápido o sistema 
+consegue responder a requisições feitas e dar uma resposta em tempo aceitável.	
+
+
+TESTE DE STRESS:
+
+	O teste de stress visa leva o sistema ao maximo, aumentando a carga, o numero de
+usuários, a quantidade de requisições, tentando realmente levar o sistema ao stress.
+
+
+TESTE DE USABILIDADE:
+
+	O teste de usabilidade visa analisar a usabilidade do sistema e ter uma noção de
+medidas como: Qual o esforço que o usuário terá para utilizar a ferramenta; Quanto tempo
+demora para se acostumar com o uso da ferramenta; Se os botões e inputs estão claros e
+objetivos, sem duplo sentido ou sem causar duvidas ao usuário.
+
+
+TESTE DE INTEROBERABILIDADE:
+
+	O teste de interoperabilidade visa analisar se o sistema é compativel com outros
+e promove "uso cruzado". Seria um teste com a finalidade de analisar se o sistema consegue
+se comunicar com outros sistemas de maneira simples e facil, trafegando os dados de maneira
+fluida.
+
+
+TESTE DE MANUTENIBILIDADE:
+(https://maxinst.com.br/voce-sabe-o-que-e-a-manutenibilidade/)
+
+	O teste de manutenibilidade fica responsável por medir o quão facil ou dificil é dar
+manutenção naquele sistema, sem que haja muitos impedimentos ou pedras no meio do caminho.
+
+
+TESTE DE CONFIABILIDADE E SEGURANÇA:
+
+	O teste de confiabilidade e segurança tem como objetivo verificar se o sistema está
+aceitavelmente seguro, e que não apresenta falhas que podem comprometer dados sigilósos ou
+funções do sistema por algum meio.
+
+
+RESUMO DE FERRAMENTAS:
+
+	| Apache JMeter         | Desempenho, Carga e Stress  |
+	| Image Color Picker    | Usabilidade                 |
+	| Teste dos 5 segundos  | Usabilidade                 |
+
+
+
+
+
+
+
+
